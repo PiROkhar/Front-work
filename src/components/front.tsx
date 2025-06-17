@@ -2,7 +2,7 @@ import bg from '/bg.png'
 import { Mail } from 'lucide-react'
 const Front = () => {
     return (
-        <div style={{ fontFamily: '"Afacad"' }} className='min-h-screen font-afacad'>
+        <div  className='min-h-screen font-afacad'>
             <div className=''>
                 <img src={bg} className=' 2xl:h-[672px] xl:h-[554px] h-[447px] w-full xl:object-fit object-cover object-bottom-right absolute -z-10 mt-[-5px] top-0' />
 
@@ -57,13 +57,13 @@ const Front = () => {
                 </div>
 
                 <div className="relative xl:pt-[82px] pt-[35px] text-center 2xl:max-w-full xl:max-w-6xl lg:max-w-4xl sm:max-w-3xl max-w-sm mx-auto">
-                    <h1 className="2xl:text-[60px] xl:text-[70px] lg:text-[56px] sm:text-[42px] text-[32px] font-bold text-white mb-8 leading-tight">
+                    <h1 style={{ fontFamily: '"Afacad"' }} className="2xl:text-[60px] xl:text-[70px] lg:text-[56px] sm:text-[42px] text-[32px] font-bold text-white mb-8 leading-tight">
                         Where <span className="text-orange-500">Vision</span> Becomes Venture
                     </h1>
-                    <p className="2xl:text-[24px] xl:text-[16px] lg:text-[14px] sm:text-[15px] text-[14px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px] sm:mt-[4px] mt-[3px] 2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-3xl max-w-xl mx-auto leading-relaxed responsive-body">
+                    <p className="2xl:text-[18px] text-[14px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px] sm:mt-[4px] mt-[3px] 2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-3xl max-w-xl mx-auto leading-relaxed responsive-body">
                         Euphoria World builds and nurtures independent brands that do more than compete they connect, inspire, and redefine the emotional and cultural fabric of everyday life
                     </p>
-                    <button className="bg-white/20 2xl:w-[440px] xl:w-[330px] lg:w-[280px] sm:w-[240px] w-[200px] 2xl:h-[74px] xl:h-[48px] lg:h-[44px] sm:h-[40px] h-[36px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full  font-medium transition-colors text-[18px] lg:text-[32px]">
+                    <button className="bg-white/20 2xl:w-[400px] xl:w-[300px] lg:w-[280px] sm:w-[240px] w-[200px] 2xl:h-[74px] xl:h-[48px] lg:h-[44px] sm:h-[40px] h-[36px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full  font-medium transition-colors 2xl:text-[18px] text-[14px]">
                         Discover Our Vision
                     </button>
                 </div>
@@ -77,7 +77,7 @@ const Front = () => {
                             <div className="bg-orange-500 text-white px-3 sm:px-4 py-2 rounded-md text-sm font-medium absolute 2xl:-mt-[23px] xl:-mt-[20px] lg:-mt-[18px] sm:-mt-[16px] -mt-[14px] 2xl:w-[200px] xl:w-[180px] lg:w-[160px] sm:w-[140px] w-[120px] 2xl:h-[46px] xl:h-[40px] lg:h-[36px] sm:h-[32px] h-[28px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] sm:text-[14px] text-[12px] text-center flex items-center justify-center self-center md:self-start">
                                 What We Are
                             </div>
-                            <h2 className="2xl:text-[48px] xl:text-[36px] lg:text-[32px] sm:text-[28px] text-[12px] font-bold text-gray-900 2xl:mb-6 xl:mb-5 lg:mb-4 sm:mb-3 mb-2 leading-tight 2xl:mt-[55px] xl:mt-[48px] lg:mt-[42px] sm:mt-[36px] mt-[30px] responsive-h2">
+                            <h2 style={{ fontFamily: '"Afacad"' }} className="2xl:text-[48px] xl:text-[36px] lg:text-[32px] sm:text-[28px] text-[12px] font-bold text-gray-900 2xl:mb-6 xl:mb-5 lg:mb-4 sm:mb-3 mb-2 leading-tight 2xl:mt-[55px] xl:mt-[48px] lg:mt-[42px] sm:mt-[36px] mt-[30px] responsive-h2">
                                 Not a Product. Not a Platform. <span className="text-orange-500">A Philosophy</span>
                             </h2>
                             <p className="text-gray-600 2xl:text-[24px] xl:text-[18px] lg:text-[16px] sm:text-[15px] text-[12px] leading-relaxed responsive-body">
