@@ -1,9 +1,8 @@
-import React from 'react'
 import bg from '/bg.png'
 import { Mail } from 'lucide-react'
 const Front = () => {
     return (
-        <div className='min-h-screen'>
+        <div className='min-h-screen font-afacad'>
             <div className=''>
                 <img src={bg} className=' 2xl:h-[672px] xl:h-[554px] h-[447px] w-full xl:object-fit object-cover object-bottom-right absolute -z-10 mt-[-5px] top-0' />
 
@@ -23,23 +22,23 @@ const Front = () => {
                         <nav className="hidden lg:flex items-center 2xl:gap-8 xl:gap-6 lg:gap-4">
                             <a
                                 href="#"
-                                className="text-gray-800 border-b-8 lg:border-b-6 lg:py-4 rounded-b-lg mt-1.5  border-[#391F60] font-medium hover:text-orange-500 transition-colors text-sm"
+                                className="text-gray-800 border-b-8 lg:border-b-8 lg:py-5 rounded-b-md mt-1.5  border-[#391F60] font-medium hover:text-orange-500 transition-colors text-md"
                             >
                                 Home
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-sm">
+                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
                                 About
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-sm">
+                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
                                 Our Brands
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-sm">
+                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
                                 What We Do
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-sm">
+                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
                                 Team
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-sm">
+                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
                                 Careers
                             </a>
                         </nav>
@@ -63,7 +62,7 @@ const Front = () => {
                     <p className="2xl:text-[24px] xl:text-[18px] lg:text-[16px] sm:text-[15px] text-[14px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px] sm:mt-[4px] mt-[3px] 2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-5xl xl:max-w-4xl max-w-xl mx-auto leading-relaxed responsive-body">
                         Euphoria World builds and nurtures independent brands that do more than compete they connect, inspire, and redefine the emotional and cultural fabric of everyday life
                     </p>
-                    <button className="bg-white/20 2xl:w-[440px] xl:w-[330px] lg:w-[280px] sm:w-[240px] w-[200px] 2xl:h-[74px] xl:h-[48px] lg:h-[44px] sm:h-[40px] h-[36px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full  font-medium transition-colors text-[18px]">
+                    <button className="bg-white/20 2xl:w-[440px] xl:w-[330px] lg:w-[280px] sm:w-[240px] w-[200px] 2xl:h-[74px] xl:h-[48px] lg:h-[44px] sm:h-[40px] h-[36px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full  font-medium transition-colors text-[18px] lg:text-[32px]">
                         Discover Our Vision
                     </button>
                 </div>
@@ -98,51 +97,7 @@ const Front = () => {
                     </div>
                 </div>
             </section>
-            <style tsx global>{`
-        /* 1920px and above */
-        @media (min-width: 1920px) {
-          .responsive-h1 { font-size: 94px; }
-          .responsive-h2 { font-size: 48px; }
-          .responsive-h3 { font-size: 34px; }
-          .responsive-body { font-size: 24px; }
-        }
-
-        /* 1440px to 1919px */
-        @media (min-width: 1440px) and (max-width: 1919px) {
-          .responsive-h1 { font-size: 70px; }
-          .responsive-h2 { font-size: 36px; }
-          .responsive-h3 { font-size: 26px; }
-          .responsive-h4 { font-size: 20px; }
-          .responsive-body { font-size: 18px; }
-        }
-
-        /* 768px to 1439px */
-        @media (min-width: 768px) and (max-width: 1439px) {
-          .responsive-h1 { font-size: 42px; }
-          .responsive-h2 { font-size: 32px; }
-          .responsive-h3 { font-size: 24px; }
-          .responsive-h4 { font-size: 20px; }
-          .responsive-body { font-size: 18px; }
-        }
-
-        /* 414px to 767px */
-        @media (min-width: 414px) and (max-width: 767px) {
-          .responsive-h1 { font-size: 48px; }
-          .responsive-h2 { font-size: 32px; }
-          .responsive-h3 { font-size: 24px; }
-          .responsive-h4 { font-size: 20px; }
-          .responsive-body { font-size: 18px; }
-        }
-
-        /* Below 414px */
-        @media (max-width: 413px) {
-          .responsive-h1 { font-size: 36px; }
-          .responsive-h2 { font-size: 28px; }
-          .responsive-h3 { font-size: 22px; }
-          .responsive-h4 { font-size: 18px; }
-          .responsive-body { font-size: 16px; }
-        }
-      `}</style>
+         
         </div>
 
 
