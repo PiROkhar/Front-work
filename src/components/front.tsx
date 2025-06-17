@@ -59,7 +59,7 @@ const Front = () => {
                     <h1 className="2xl:text-[60px] xl:text-[70px] lg:text-[56px] sm:text-[42px] text-[32px] font-bold text-white mb-8 leading-tight">
                         Where <span className="text-orange-500">Vision</span> Becomes Venture
                     </h1>
-                    <p className="2xl:text-[24px] xl:text-[18px] lg:text-[16px] sm:text-[15px] text-[14px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px] sm:mt-[4px] mt-[3px] 2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-5xl xl:max-w-4xl max-w-xl mx-auto leading-relaxed responsive-body">
+                    <p className="2xl:text-[24px] xl:text-[16px] lg:text-[14px] sm:text-[15px] text-[14px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px] sm:mt-[4px] mt-[3px] 2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-3xl max-w-xl mx-auto leading-relaxed responsive-body">
                         Euphoria World builds and nurtures independent brands that do more than compete they connect, inspire, and redefine the emotional and cultural fabric of everyday life
                     </p>
                     <button className="bg-white/20 2xl:w-[440px] xl:w-[330px] lg:w-[280px] sm:w-[240px] w-[200px] 2xl:h-[74px] xl:h-[48px] lg:h-[44px] sm:h-[40px] h-[36px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full  font-medium transition-colors text-[18px] lg:text-[32px]">
