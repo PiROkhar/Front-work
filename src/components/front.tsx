@@ -2,7 +2,7 @@ import bg from '/bg.png'
 import { Mail } from 'lucide-react'
 const Front = () => {
     return (
-        <div className='min-h-screen font-afacad'>
+        <div style={{ fontFamily: '"Afacad"' }} className='min-h-screen font-afacad'>
             <div className=''>
                 <img src={bg} className=' 2xl:h-[672px] xl:h-[554px] h-[447px] w-full xl:object-fit object-cover object-bottom-right absolute -z-10 mt-[-5px] top-0' />
 
@@ -14,7 +14,8 @@ const Front = () => {
                                 <div className="absolute inset-0 bg-gradient-to-br from-red-500 via-orange-500 to-blue-500 rounded-full opacity-80"></div>
                                 <div className="absolute inset-1 bg-gradient-to-br from-blue-500 via-purple-500 to-red-500 rounded-full opacity-60"></div>
                             </div>
-                            <span className="text-xl font-semibold text-gray-800 font-bruno">Euphoria World</span>
+                            <span style={{ fontFamily: '"Bruno Ace", cursive' }}>Euphoria World</span>
+
                         </div>
 
 
