@@ -1,10 +1,11 @@
 import bg from '/bg.png'
+import main from '/main.png'
 import { Mail } from 'lucide-react'
 const Front = () => {
     return (
         <div style={{ fontFamily: '"Afacad", sans-serif' }} className='min-h-screen font-afacad'>
             <div className=''>
-                <img src={bg} className=' 2xl:h-[672px] xl:h-[554px] h-[530px] w-full xl:object-fit object-cover object-bottom-right absolute -z-10 mt-[-5px] top-0' />
+                <img src={bg} className=' 2xl:h-[672px] xl:h-[554px] h-[530px] w-full 2xl:object-fit object-cover object-bottom-right absolute -z-10 mt-[-5px] top-0' />
 
                 <div className='flex items-center justify-between 2xl:mx-[53px] xl:mx-[40px] lg:mx-[32px] sm:mx-[24px] gap-7'>
                     <header className="bg-white 2xl:w-[1633.33px] xl:w-[1225px] w-full 2xl:h-[97px] xl:h-[73px] h-[71px] sm:px-8 px-2 flex items-center justify-between mt-[20px] sm:mt-[40px] xl:rounded-[12px] rounded-[4px] text-[18px] mx-4 sm:mx-0">
@@ -21,25 +22,26 @@ const Front = () => {
 
                         {/* Navigation */}
                         <nav className="hidden lg:flex items-center 2xl:gap-8 xl:gap-6 lg:gap-4 2xl:text-[24px] xl:text-[18px] text-[14px] ">
+                            <img src={main} className='absolute 2xl:w-16 2xl:mt-[90px] xl:w-14 -ml-[6px] w-10 mt-[70px] hidden lg:flex'/>
                             <a
                                 href="#"
-                                className="text-gray-800 border-b-8 2xl:py-6 lg:border-b-8 lg:py-5 rounded-b-md mt-1.5  border-[#391F60] font-medium hover:text-orange-500 transition-colors text-md"
+                                className="text-[#201136] font-semibold hover:text-orange-500 transition-colors text-md"
                             >
                                 Home
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
+                            <a href="#" className="text-[#967CBC] font-semibold hover:text-orange-500 transition-colors text-md">
                                 About
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
+                            <a href="#" className="text-[#967CBC] font-semibold hover:text-orange-500 transition-colors text-md">
                                 Our Brands
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
+                            <a href="#" className="text-[#967CBC] font-semibold hover:text-orange-500 transition-colors text-md">
                                 What We Do
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
+                            <a href="#" className="text-[#967CBC] font-semibold hover:text-orange-500 transition-colors text-md">
                                 Team
                             </a>
-                            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors text-md">
+                            <a href="#" className="text-[#967CBC] font-semibold hover:text-orange-500 transition-colors text-md">
                                 Careers
                             </a>
                         </nav>
@@ -52,7 +54,7 @@ const Front = () => {
                     </header>
                     {/* Mail Icon */}
                     <div className="bg-[#F36719] hidden sm:flex p-3 2xl:h-[97px] xl:h-[73px] h-[71px] 2xl:w-[123px] xl:w-[92px] lg:w-[80px] sm:w-[70px] w-[60px] justify-center items-center z-10 mt-[40px] xl:rounded-[12px] rounded-[4px]">
-                        <Mail className="w-[42px] h-[42px] text-white" />
+                        <Mail className="2xl:w-[56px] xl:w-[42px] w-[31px] 2xl:h-[56px] xl:h-[42px] h-[31px] text-white" />
                     </div>
                 </div>
 
@@ -65,7 +67,7 @@ const Front = () => {
                     <p className="2xl:text-[24px] text-[18px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px]  2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-4xl xl:max-w-3xl md:max-w-lg max-w-11/12 mx-auto leading-relaxed responsive-body">
                         Euphoria World builds and nurtures independent brands that do more than compete they connect, inspire, and redefine the emotional and cultural fabric of everyday life
                     </p>
-                    <button className="bg-white/20 2xl:w-[400px] xl:w-[320px] lg:w-[280px] sm:w-[240px] w-[308px] 2xl:h-[64px] xl:h-[55px] lg:h-[35px] sm:h-[45px] h-[45px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full  font-medium transition-colors 2xl:text-[34px] text-[20px]">
+                    <button className="bg-white/20 2xl:w-[400px] xl:w-[320px] lg:w-[280px] sm:w-[240px] w-[308px] 2xl:h-[64px] xl:h-[55px] lg:h-[45px] sm:h-[45px] h-[45px] hover:bg-purple-600 border border-white text-white items-center justify-center rounded-full transition-colors 2xl:text-[34px] text-[20px]">
                         Discover Our Vision
                     </button>
                 </div>
