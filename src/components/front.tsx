@@ -60,6 +60,8 @@ const Front = () => {
                     <h1 className="2xl:text-[94px] xl:text-[70px] md:text-[42px] sm:text-[42px] text-[48px] font-bold text-white sm:mb-8 mb-4 leading-tight">
                         Where <span className="text-orange-500">Vision</span> Becomes Venture
                     </h1>
+                    <div className='hidden 2xl:flex absolute w-5 h-5 bg-transparent border-l-3 border-white border-b-3 rounded-sm ml-[23%] -mt-[65px] '></div>
+                    <div className='hidden 2xl:flex absolute w-5 h-5 bg-transparent border-t-3 border-white border-r-3 rounded-sm ml-[41%] -mt-[130px] '></div>
                     <p className="2xl:text-[24px] text-[18px] text-gray-200 2xl:mt-[12px] xl:mt-[8px] lg:mt-[6px]  2xl:mb-[64px] xl:mb-[48px] lg:mb-[40px] sm:mb-[32px] mb-[24px] 2xl:max-w-4xl xl:max-w-3xl md:max-w-lg max-w-11/12 mx-auto leading-relaxed responsive-body">
                         Euphoria World builds and nurtures independent brands that do more than compete they connect, inspire, and redefine the emotional and cultural fabric of everyday life
                     </p>
